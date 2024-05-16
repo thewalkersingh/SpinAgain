@@ -521,3 +521,4 @@ D:\Projects\SpinAgain\SpinAgain\obj\Debug\net8.0\refint\SpinAgain.dll
 D:\Projects\SpinAgain\SpinAgain\obj\Debug\net8.0\SpinAgain.pdb
 D:\Projects\SpinAgain\SpinAgain\obj\Debug\net8.0\SpinAgain.genruntimeconfig.cache
 D:\Projects\SpinAgain\SpinAgain\obj\Debug\net8.0\ref\SpinAgain.dll
+D:\Projects\SpinAgain\SpinAgain\obj\Debug\net8.0\SpinAgain.sourcelink.json

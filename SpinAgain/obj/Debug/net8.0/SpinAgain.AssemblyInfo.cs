@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpinAgain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f455555cbbc1274e03dd59ecba1c7fbb80bf2153")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpinAgain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpinAgain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
