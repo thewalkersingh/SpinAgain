@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\SpinAgain\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{20BB747E-93BC-42E0-9D5C-45DAFB9CB44F}|SpinAgain\\SpinAgain.csproj|d:\\projects\\spinagain\\spinagain\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BB747E-93BC-42E0-9D5C-45DAFB9CB44F}|SpinAgain\\SpinAgain.csproj|solutionrelative:spinagain\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{20BB747E-93BC-42E0-9D5C-45DAFB9CB44F}|SpinAgain\\SpinAgain.csproj|d:\\projects\\spinagain\\spinagain\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{20BB747E-93BC-42E0-9D5C-45DAFB9CB44F}|SpinAgain\\SpinAgain.csproj|solutionrelative:spinagain\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BB747E-93BC-42E0-9D5C-45DAFB9CB44F}|SpinAgain\\SpinAgain.csproj|d:\\projects\\spinagain\\spinagain\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BB747E-93BC-42E0-9D5C-45DAFB9CB44F}|SpinAgain\\SpinAgain.csproj|solutionrelative:spinagain\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,12 +59,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projects\\SpinAgain\\SpinAgain\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SpinAgain\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projects\\SpinAgain\\SpinAgain\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SpinAgain\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T14:50:55.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Projects\\SpinAgain\\SpinAgain\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "SpinAgain\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Projects\\SpinAgain\\SpinAgain\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "SpinAgain\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T14:49:24.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Projects\\SpinAgain\\SpinAgain\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SpinAgain\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Projects\\SpinAgain\\SpinAgain\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "SpinAgain\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAxwCgAAAAZAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAACAAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-16T14:39:43.676Z",
               "EditorCaption": ""
