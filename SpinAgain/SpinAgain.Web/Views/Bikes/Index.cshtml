@@ -1,0 +1,26 @@
+﻿@model IEnumerable<SpinAgain.Web.Models.Bike>
+@{
+    ViewData["Title"] = "Bike Listings";
+}
+<!--All styling is in wwwroot/css-->
+<div class="container">
+    <div class="row">
+        @foreach (var bike in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@bike.ImageUrl" class="card-img-top" alt="Bike Image">
+                    <div class="card-body">
+                        <h5 class="card-title">@bike.ModelName</h5>
+                        <p class="card-text">@bike.Brand</p>
+                        <p class="card-text">Price: @bike.Price.ToString("C")</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-primary btn-sm">Test Drive</button>
+                        <button type="button" class="btn btn-success btn-sm">Buy</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

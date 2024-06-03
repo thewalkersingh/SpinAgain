@@ -1,0 +1,15 @@
+﻿@model SpinAgain.Web.Models.Bike
+
+<div class="card">
+    <img src="@Model.ImageUrl" class="card-img-top" alt="Bike Image">
+    <div class="card-body">
+        <h5 class="card-title">@Model.ModelName</h5>
+        <p class="card-text">@Model.Brand</p>
+        <p class="card-text">@Model.Price.ToString("C")</p>
+        <a href="@Url.Action("Details", "Bikes", new { id = Model.Id })" class="btn btn-primary">View Details</a>
+        <a href="@Url.Action("Edit", "AdminBikes", new { id = Model.Id })" class="btn btn-secondary">Edit</a>
+        <form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="d-inline">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this bike?')">Delete</button>
+        </form>
+    </div>
+</div>

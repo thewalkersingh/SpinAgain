@@ -1,0 +1,43 @@
+﻿@model IEnumerable<SpinAgain.Web.Models.Bike>
+
+@{
+    ViewData["Title"] = "Bike Listings";
+}
+
+<h1>Bike Listings</h1>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Model Name</th>
+                <th>Brand</th>
+                <th>Price</th>
+                <th></th> <!-- Column for actions (Edit and Delete buttons) -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bike in Model)
+            {
+                <tr>
+                    <td>@bike.ModelName</td>
+                    <td>@bike.Brand</td>
+                    <td>@bike.Price.ToString("C")</td>
+                    <td>
+                        <!-- Action buttons for editing and deleting -->
+                        <a href="@Url.Action("Edit", "AdminBikes", new { id = bike.Id })" class="btn btn-primary">Edit</a>
+                        <a href="@Url.Action("Delete", "AdminBikes", new { id = bike.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No bikes available.</p>
+}
+
+<!-- Link to create a new bike -->
+<a href="@Url.Action("Create", "AdminBikes")" class="btn btn-success">Add New Bike</a>
